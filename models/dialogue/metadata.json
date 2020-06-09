@@ -1,0 +1,42 @@
+{
+  "action_fingerprints": {
+    "action_listen": {
+      "slots": [
+        "PERSON",
+        "role_type"
+      ]
+    },
+    "utter_technical": {
+      "slots": [
+        "positions"
+      ]
+    },
+    "action_check_status": {
+      "slots": [
+        "status"
+      ]
+    },
+    "action_check_positions": {
+      "slots": [
+        "positions"
+      ]
+    },
+    "utter_contact": {
+      "slots": []
+    }
+  },
+  "python": "3.7.1",
+  "max_histories": [
+    5,
+    5
+  ],
+  "ensemble_name": "rasa_core.policies.ensemble.SimplePolicyEnsemble",
+  "policy_names": [
+    "rasa_core.policies.memoization.MemoizationPolicy",
+    "rasa_core.policies.keras_policy.KerasPolicy"
+  ],
+  "trained_at": "20191208-161345",
+  "rasa_core": "0.14.5",
+  "tensorflow": "1.13.1",
+  "sklearn": "0.20.3"
+}

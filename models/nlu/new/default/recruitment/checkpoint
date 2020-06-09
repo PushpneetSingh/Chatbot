@@ -1,0 +1,2 @@
+model_checkpoint_path: "C:\\Users\\dell pc\\Desktop\\pushpneet\\cdac training\\models/nlu/new\\default\\recruitment\\component_5_EmbeddingIntentClassifier.ckpt"
+all_model_checkpoint_paths: "C:\\Users\\dell pc\\Desktop\\pushpneet\\cdac training\\models/nlu/new\\default\\recruitment\\component_5_EmbeddingIntentClassifier.ckpt"
